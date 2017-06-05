@@ -9,10 +9,6 @@ button {
 	color: white;
 }
 
-div {
-/*	position: fixed;
-	float: left;*/
-}
 
 img {
 	width: auto;
@@ -22,8 +18,6 @@ img {
 label {
 	font-weight: bold;
 }
-
-
 
 #topics-form {
 	position: relative;
@@ -40,11 +34,6 @@ label {
 	border-radius: 5px;
 }
 
-#topicButtons{
-/* 	position: relative;
- 	float: left;*/
-
-}
 
 /* Div tag that holds the image*/
 #topics{
