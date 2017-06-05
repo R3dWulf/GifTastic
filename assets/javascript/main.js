@@ -72,9 +72,9 @@ $('document').ready(function(){
 					gifImg.attr("data-still", results[i].images.fixed_height_still.url);
 					gifImg.attr("data-animate", results[i].images.fixed_height.url);
 					// Add the ratings to the <div>
-					gifDiv.prepend(pTag);
+					gifDiv.append(pTag);
 					// Add the img to the <div>
-					gifDiv.prepend(gifImg);
+					gifDiv.append(gifImg);
 					// 
 					$("#topics").prepend(gifDiv);
 
